@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+}
+section#prestasi {
+  padding: 20px;
+  background-color: #fff;
+}
+
+section#prestasi h2 {
+  font-size: 1.7em;
+}
+
+section#prestasi ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section#prestasi ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section#prestasi ul li img {
+  width: 150px;
+}
+
+section#prestasi ul li h3 {
+  font-size: 1.5em;
+}
+
+section#prestasi ul li p {
+  margin-bottom: 10px;
+}
+section#kontak {
+  padding: 20px;
+  background-color: #fff;
+}
+
+section#kontak h2 {
+  font-size: 1.7em;
+}
+
+section#kontak p {
+  margin-bottom: 10px;
+}
